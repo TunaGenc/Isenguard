@@ -7,7 +7,7 @@ import pandas as pd
 
 
 def weap(city):
- request_url = f"https://api.weatherapi.com/v1/current.json?key=<YOUR API KEY>&q="+city+"&aqi=yes"
+ request_url = f"https://api.weatherapi.com/v1/current.json?key=829ab5bc7a314cdabe9153842230710&q="+city+"&aqi=yes"
  response = requests.get(request_url)
    
  if response.status_code == 200:
