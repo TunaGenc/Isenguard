@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isengard</title>
+</head>
+
+
+<style>
+.center{
+ 
+  justify-content: center;
+  margin: 7% 45%;
+}
+</style>
+
+
+<body>
+ <div class="center"style="width=50%">
+    
+ 
+    <h1>Risk calculated</h1>
+    <p>Current risk: {{ cname }}</p>
+    <br>
+    <h3>Parameters</h3>
+    <ul>
+        <li>Temperature:{{ t }}</li>
+        <li>Humidity:{{ h }}</li>
+        <li>IsDay:{{ d }}</li>
+        <li>Wind_KpH:{{ w }}</li>
+        <li>No2 Levels:{{no2  }}</li>
+        <li>So2 Levels:{{ so2}}</li>
+        <li>O3 Levels:{{ o3 }}</li>
+        <li>Co Levels:{{ co }}</li>
+        <li>pm 2,5 Levels:{{p25}}</li>
+        <li>pm 10 Levels:{{p10}}</li>
+    </ul>
+ </div>
+</body>
+</html>
